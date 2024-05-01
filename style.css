@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 1);;
+ 
+   
+
+
+}
+body{
+    font-weight: 400;
+
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    }
+
+header{
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+
+   
+    img{
+        width: 656px;
+        height: 300px;
+        border: 1px solid rgba(255, 247, 251, 1)
+        ;
+        border-radius: 12px;
+    }
+   
+}
+
+
+
+.preparation-time{
+   h2{
+    color: rgba(122, 40, 78, 1);
+   } 
+    background-color: Snow;
+    border: 1px solid rgba(227, 221, 215, 1)
+    border-radius 12px;
+  
+    
+}
+li::marker{
+    color: rgba(133,70,50,1);
+}
+.ingredients{
+    h2{
+        color: rgba(122, 40, 78, 1);
+       } 
+         border: 1px solid rgba(227, 221, 215, 1);
+        border-radius: 12px;
+       
+
+}
+
+.instructions{
+    h2{
+        color: rgba(122, 40, 78, 1);
+       } 
+         border: 1px solid rgba(227, 221, 215, 1);
+        border-radius: 12px;
+       
+
+}
+.nutrition{
+    h2{
+        color: rgba(122, 40, 78, 1);
+       } 
+         border: 1px solid rgba(227, 221, 215, 1);
+        border-radius: 12px;
+         th{
+            border: 1px solid rgba(227, 221, 215, 1);
+            border-radius: 8px;
+            height: 50px;
+            width: 400px;
+         }
+         table{
+            border-collapse: collapse;
+         }
+         .int{
+            color: rgba(122, 40, 78, 1); 
+         }
+         display: flex;
+         flex-wrap: wrap;
+         align-content: center;
+         
+         flex-direction: column;
+
+       
+}
+
